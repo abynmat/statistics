@@ -1,0 +1,4 @@
+quantity,monte_carlo,exact_quadrature
+P(B > A),0.874085,0.873678
+expected loss if ship B,0.000356385,0.000357195
+expected loss if keep A,0.00685036,0.00685503

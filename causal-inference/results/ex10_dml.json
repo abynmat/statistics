@@ -1,0 +1,67 @@
+{
+  "true_theta": 0.5,
+  "n": 2000,
+  "n_sims": 100,
+  "designs": {
+    "smooth": {
+      "estimators": {
+        "OLS (linear X)": {
+          "mean": 0.8409,
+          "bias": 0.3409,
+          "sd": 0.0317,
+          "rmse": 0.3424
+        },
+        "Plug-in ML (non-orthogonal)": {
+          "mean": 0.512,
+          "bias": 0.012,
+          "sd": 0.0687,
+          "rmse": 0.0698
+        },
+        "Orthogonal, no cross-fit": {
+          "mean": 0.5015,
+          "bias": 0.0015,
+          "sd": 0.0229,
+          "rmse": 0.0229
+        },
+        "DML (orthogonal + cross-fit)": {
+          "mean": 0.513,
+          "bias": 0.013,
+          "sd": 0.0238,
+          "rmse": 0.0271
+        }
+      },
+      "dml_ci95_coverage": 0.94,
+      "dml_mean_se": 0.0247
+    },
+    "interaction": {
+      "estimators": {
+        "OLS (linear X)": {
+          "mean": 1.1734,
+          "bias": 0.6734,
+          "sd": 0.0357,
+          "rmse": 0.6744
+        },
+        "Plug-in ML (non-orthogonal)": {
+          "mean": 0.5633,
+          "bias": 0.0633,
+          "sd": 0.0866,
+          "rmse": 0.1073
+        },
+        "Orthogonal, no cross-fit": {
+          "mean": 0.5906,
+          "bias": 0.0906,
+          "sd": 0.0255,
+          "rmse": 0.0941
+        },
+        "DML (orthogonal + cross-fit)": {
+          "mean": 0.5633,
+          "bias": 0.0633,
+          "sd": 0.025,
+          "rmse": 0.0681
+        }
+      },
+      "dml_ci95_coverage": 0.38,
+      "dml_mean_se": 0.0282
+    }
+  }
+}

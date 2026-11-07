@@ -1,0 +1,33 @@
+{
+  "backdoor": {
+    "checks": {
+      "{}": false,
+      "{C}": false,
+      "{A, C}": true,
+      "{B, C}": true,
+      "{A, C, M}": false,
+      "{A, C, D}": false,
+      "{A, C, E}": true
+    },
+    "minimal_valid_sets": [
+      [
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "C"
+      ]
+    ],
+    "n_valid_sets": 12
+  },
+  "frontdoor": {
+    "truth": 0.28,
+    "naive": 0.5209,
+    "naive_sd": 0.0123,
+    "frontdoor": 0.2806,
+    "frontdoor_sd": 0.0145,
+    "oracle_backdoor_on_U": 0.2808,
+    "oracle_sd": 0.017
+  }
+}

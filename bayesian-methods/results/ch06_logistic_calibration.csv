@@ -1,0 +1,5 @@
+predictor,log_loss,brier,ece
+true coefficients (oracle),0.346683,0.109544,0.014794
+Bayes posterior predictive (HMC),0.414646,0.134896,0.0154988
+MAP plug-in (same prior),0.417529,0.135763,0.0280612
+MLE plug-in,0.638484,0.162957,0.127797

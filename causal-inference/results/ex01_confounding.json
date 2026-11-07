@@ -1,0 +1,46 @@
+{
+  "true_ate": 2.0,
+  "population_estimands": {
+    "ATE": 2.0,
+    "ATT": 2.5971,
+    "ATC": 1.5876
+  },
+  "n": 2000,
+  "n_sims": 200,
+  "estimators": {
+    "Naive difference in means": {
+      "mean": 4.0552,
+      "bias": 2.0552,
+      "sd": 0.1366,
+      "rmse": 2.0597
+    },
+    "OLS, linear in X": {
+      "mean": 2.2251,
+      "bias": 0.2251,
+      "sd": 0.0734,
+      "rmse": 0.2367
+    },
+    "IPW (logistic propensity)": {
+      "mean": 2.0207,
+      "bias": 0.0207,
+      "sd": 0.147,
+      "rmse": 0.1481
+    },
+    "AIPW (linear outcome)": {
+      "mean": 2.0004,
+      "bias": 0.0004,
+      "sd": 0.1071,
+      "rmse": 0.1068
+    },
+    "AIPW (boosted, cross-fit)": {
+      "mean": 2.0077,
+      "bias": 0.0077,
+      "sd": 0.1101,
+      "rmse": 0.1101
+    }
+  },
+  "propensity_range": [
+    0.01,
+    0.9721
+  ]
+}

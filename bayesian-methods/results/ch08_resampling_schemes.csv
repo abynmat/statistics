@@ -1,0 +1,5 @@
+scheme,loglik_mean_minus_ref,loglik_sd,rmse_mean
+multinomial,-0.85071,1.32171,4.99792
+residual,-0.939561,1.14453,5.00458
+stratified,-0.443735,1.2338,4.95946
+systematic,-0.832461,1.15764,5.01074

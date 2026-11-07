@@ -1,0 +1,39 @@
+{
+  "peeking": {
+    "fixed_horizon_fpr": 0.047,
+    "peek_every_batch_fpr": 0.3192,
+    "msprt_fpr": 0.0182,
+    "n_looks": 50,
+    "batch_pairs": 100,
+    "n_sims": 4000,
+    "fpr_by_looks": {
+      "1": 0.05,
+      "2": 0.104,
+      "5": 0.161,
+      "10": 0.194,
+      "20": 0.263,
+      "50": 0.31
+    }
+  },
+  "cuped": {
+    "true_effect": 0.08,
+    "rho": 0.7,
+    "n": 2000,
+    "plain_mean": 0.0804,
+    "plain_sd": 0.0439,
+    "cuped_mean": 0.0809,
+    "cuped_sd": 0.0311,
+    "variance_ratio": 0.5023,
+    "theory_variance_ratio": 0.51,
+    "power_plain": 0.4325,
+    "power_cuped": 0.7215
+  },
+  "interference": {
+    "global_effect": 0.2,
+    "direct_effect": 1.0,
+    "individual_randomisation_mean": 0.9834,
+    "individual_sd": 0.0282,
+    "cluster_randomisation_mean": 0.204,
+    "cluster_sd": 0.1396
+  }
+}

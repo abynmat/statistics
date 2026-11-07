@@ -1,0 +1,7 @@
+estimator,mean_error_vs_true_elpd,rmse_vs_true_elpd,rmse_vs_exact_loo,mean_regret_of_pick,modal_degree_picked
+lppd_in_sample,2.78193,4.69087,nan,0.283669,8
+waic,-0.229974,3.88989,0.366671,0.234586,5
+psis_loo,-0.389141,3.92174,0.18979,0.228849,5
+is_loo,-0.419888,3.93334,0.205506,0.231614,5
+exact_loo,-0.456032,3.94124,0,0.225503,5
+true_elpd (oracle),0,0,nan,0,5

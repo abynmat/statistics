@@ -1,0 +1,21 @@
+{
+  "z_sd": 0.947214,
+  "coverage_95": 0.975,
+  "n_runs": 120,
+  "best_scale_factor": 0.85,
+  "best_accept": 0.334438,
+  "trace_runs": {
+    "too small (0.1)": {
+      "accept": 0.9712,
+      "ess_of_5000": 13.523009
+    },
+    "tuned (2.4)": {
+      "accept": 0.4346,
+      "ess_of_5000": 1045.955919
+    },
+    "too large (25)": {
+      "accept": 0.054,
+      "ess_of_5000": 152.303014
+    }
+  }
+}

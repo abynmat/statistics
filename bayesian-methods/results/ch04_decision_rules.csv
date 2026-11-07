@@ -1,0 +1,8 @@
+rule,mean_n_per_arm,P_ship_worse,mean_regret_bp,P_ship_B_when_B_worse,P_ship_B_when_B_better_by_5pct+
+expected loss < 0.5 bp,13141.3,0.192333,3.3702,0.186331,0.969262
+expected loss < 1 bp,11097,0.2,3.75182,0.196003,0.956967
+expected loss < 2 bp,8471.67,0.220333,4.50732,0.21599,0.938525
+expected loss < 5 bp,4506.67,0.265,6.74353,0.272727,0.879098
+expected loss < 10 bp,2325.5,0.314333,8.93328,0.323017,0.819672
+fixed 20k/arm, z-test p<0.05,20000,0.335667,9.27344,0.00773694,0.692623
+fixed 20k/arm, ship if P(B>A)>0.5,20000,0.178,2.95907,0.168279,0.979508

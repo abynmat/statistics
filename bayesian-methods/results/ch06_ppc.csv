@@ -1,0 +1,3 @@
+data,T_obs_kurtosis,T_rep_median,ppp_value,pi90_coverage
+gaussian noise (model correct),0.00514555,-0.145301,0.3705,0.91
+student-t(2) noise (model wrong),62.4646,-0.135679,0,0.98

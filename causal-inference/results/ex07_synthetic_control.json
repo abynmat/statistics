@@ -1,0 +1,36 @@
+{
+  "true_effect": -3.0,
+  "n_sims": 100,
+  "estimators": {
+    "DiD vs donor average": {
+      "mean": -1.9388,
+      "bias": 1.0612,
+      "sd": 0.5776,
+      "rmse": 1.2082
+    },
+    "Synthetic control": {
+      "mean": -2.9559,
+      "bias": 0.0441,
+      "sd": 0.1482,
+      "rmse": 0.1546
+    },
+    "Synthetic DiD (simplified, default ridge)": {
+      "mean": -2.5792,
+      "bias": 0.4208,
+      "sd": 0.2936,
+      "rmse": 0.5131
+    },
+    "Synthetic DiD (simplified, ridge x0.01)": {
+      "mean": -2.8404,
+      "bias": 0.1596,
+      "sd": 0.3024,
+      "rmse": 0.3419
+    }
+  },
+  "one_panel": {
+    "sc_estimate": -3.0978,
+    "pre_rmspe": 0.2757,
+    "placebo_p_value": 0.0323,
+    "n_donors": 30
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "ovb": {
+    "estimate_omitting_U": 0.7388,
+    "se": 0.0234,
+    "t": 31.5571,
+    "oracle_with_U": 0.4833,
+    "true_effect": 0.5,
+    "partial_r2_U_with_D": 0.2123,
+    "partial_r2_U_with_Y": 0.2212,
+    "adjusted_estimate_at_true_U_strength": 0.4833,
+    "robustness_value_q1": 0.4996,
+    "partial_r2_D_estimate_on_Y": 0.3327,
+    "benchmark_X_partial_r2_D": 0.2169,
+    "benchmark_X_partial_r2_Y": 0.21
+  },
+  "e_values": {
+    "1.2": 1.6899,
+    "1.5": 2.366,
+    "2.0": 3.4142,
+    "3.0": 5.4495,
+    "4.0": 7.4641
+  },
+  "rosenbaum": {
+    "n_pairs": 400,
+    "pairs_favouring_treatment": 247,
+    "p_at_gamma_1": 0.0,
+    "gamma_star": 1.36
+  }
+}

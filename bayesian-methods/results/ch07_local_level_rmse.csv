@@ -1,0 +1,4 @@
+estimate,rmse
+raw measurements,1.04269
+Kalman filter,0.50425
+RTS smoother,0.331342

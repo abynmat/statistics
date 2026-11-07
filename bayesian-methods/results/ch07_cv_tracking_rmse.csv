@@ -1,0 +1,4 @@
+estimate,pos_rmse,vel_rmse
+raw position fixes,2.70442,nan
+Kalman filter,1.6114,0.622125
+RTS smoother,0.806176,0.325994

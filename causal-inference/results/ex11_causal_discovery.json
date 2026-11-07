@@ -1,0 +1,57 @@
+{
+  "n": 5000,
+  "n_seeds": 10,
+  "summary": {
+    "PC (raw)": {
+      "mean_shd": 1.1,
+      "exact_recovery_rate": 0.5
+    },
+    "PC (standardised)": {
+      "mean_shd": 1.1,
+      "exact_recovery_rate": 0.5
+    },
+    "NOTEARS (raw)": {
+      "mean_shd": 0.0,
+      "exact_recovery_rate": 1.0
+    },
+    "NOTEARS (standardised)": {
+      "mean_shd": 6.3,
+      "exact_recovery_rate": 0.0
+    },
+    "sortnregress (raw)": {
+      "mean_shd": 0.6,
+      "exact_recovery_rate": 0.8
+    },
+    "sortnregress (standardised)": {
+      "mean_shd": 6.4,
+      "exact_recovery_rate": 0.1
+    }
+  },
+  "mean_varsortability_raw": 0.9667,
+  "true_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ]
+}

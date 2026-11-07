@@ -1,0 +1,4 @@
+policy,rmse,median_weight_ess,min_weight_ess,resample_events
+never resample,10.1114,1,1,0
+resample if ESS < N/2,5.01986,150.914,5.59947,78
+resample every step,5.05015,156.767,3.46781,100

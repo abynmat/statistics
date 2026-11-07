@@ -1,0 +1,6 @@
+scenario,basic,split,rank
+4 well-mixed chains,1.00315,1.00495,1.0052
+one chain shifted by 0.5 sd,1.02772,1.02642,1.02638
+one chain shifted by 2 sd,1.41869,1.37121,1.32654
+one chain 3x wider (same mean),1.00195,1.0058,1.14474
+all chains drift (trend),0.999738,1.27365,1.26732

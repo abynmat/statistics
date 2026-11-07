@@ -1,0 +1,39 @@
+{
+  "single": [
+    {
+      "quantity": "P(B > A)",
+      "monte_carlo": 0.874085,
+      "exact_quadrature": 0.873678
+    },
+    {
+      "quantity": "expected loss if ship B",
+      "monte_carlo": 0.000356,
+      "exact_quadrature": 0.000357
+    },
+    {
+      "quantity": "expected loss if keep A",
+      "monte_carlo": 0.00685,
+      "exact_quadrature": 0.006855
+    }
+  ],
+  "frequentist": {
+    "z": 1.144332,
+    "p_value_two_sided": 0.252486,
+    "diff_hat": 0.0065,
+    "wald_ci": [
+      -0.004633,
+      0.017633
+    ],
+    "bayes_cri": [
+      -0.004627,
+      0.017601
+    ],
+    "relative_lift_post_mean": 0.063076,
+    "P(lift > 5%)": 0.58314
+  },
+  "null_stop_by_loss_rule": {
+    "0.0002": 0.6775,
+    "0.0005": 0.955,
+    "0.001": 1.0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "n_train": 4000,
+  "n_test": 2000,
+  "reps": 5,
+  "summary": {
+    "S-learner": {
+      "pehe_mean": 0.4161,
+      "pehe_sd": 0.0369,
+      "ate_bias_mean": -0.0204
+    },
+    "T-learner": {
+      "pehe_mean": 0.5996,
+      "pehe_sd": 0.0127,
+      "ate_bias_mean": 0.0152
+    },
+    "X-learner": {
+      "pehe_mean": 0.3408,
+      "pehe_sd": 0.0231,
+      "ate_bias_mean": 0.0036
+    },
+    "DR-learner": {
+      "pehe_mean": 0.6489,
+      "pehe_sd": 0.0632,
+      "ate_bias_mean": 0.0109
+    },
+    "R-learner": {
+      "pehe_mean": 0.5037,
+      "pehe_sd": 0.0211,
+      "ate_bias_mean": 0.0088
+    },
+    "Honest causal forest": {
+      "pehe_mean": 0.2753,
+      "pehe_sd": 0.0242,
+      "ate_bias_mean": 0.0047
+    }
+  },
+  "auuc_one_rep": {
+    "S-learner": 1.3347,
+    "T-learner": 1.3214,
+    "R-learner": 1.3294,
+    "Honest causal forest": 1.3479,
+    "oracle": 1.3513,
+    "random": 0.9977
+  }
+}
